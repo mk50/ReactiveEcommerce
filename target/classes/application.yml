@@ -3,7 +3,7 @@ server:
 
 spring:
   r2dbc:
-    url: r2dbc:oracle://172.16.1.101:1521/GBDEV
+    url: r2dbc:oracle://172.16.1.101:5090/GBDEV
     username: reactivePRJ
     password: reactivePRJ
     driver-class-name: oracle.jdbc.OracleDriver

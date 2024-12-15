@@ -8,8 +8,9 @@ import com.microservice.ecommerce.model.Product;
 import reactor.core.publisher.Flux;
 
 @Repository
-public interface ProductRepo  extends ReactiveCrudRepository<Product, Long>{
+public interface ProductRepository extends ReactiveCrudRepository<Product, Long> {
 	
-
+ 
+	
 
 }
